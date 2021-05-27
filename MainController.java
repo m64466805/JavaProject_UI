@@ -65,7 +65,8 @@ public class MainController  {
             case P:
             //Game Pause
                 break;
-                   
+            default:
+                break;
         }
     }
     
