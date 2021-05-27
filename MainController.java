@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 public class MainController  {
@@ -39,6 +40,32 @@ public class MainController  {
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.show();
+        }
+    }
+    public void BattleMoving(KeyEvent event) {
+        switch(event.getCode()){
+            case UP:
+            //object move up
+                break;
+            case DOWN:
+            //object move down
+                break;
+            case LEFT:
+            //object move left
+                break;
+            case RIGHT:
+            //object move right
+                break;
+            case SPACE:
+            //object attack1
+                break;
+            case Z:
+            //object switchWeapon
+                break;   
+            case P:
+            //Game Pause
+                break;
+                   
         }
     }
     
